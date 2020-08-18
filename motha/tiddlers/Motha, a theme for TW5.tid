@@ -1,0 +1,31 @@
+created: 20200818120225960
+modified: 20200818132033874
+tags: 
+title: Motha, a theme for TW5
+type: text/vnd.tiddlywiki
+
+! Motha, a theme inspired by Moments
+
+This [[TW5|https://tiddlywiki.com/]] theme is inspired by [[Moments by Riz|https://ibnishak.github.io/Tesseract/themes/moments.html]]. I wrote it from scratch, to learn how to hack [[TW5|https://tiddlywiki.com]] and have a great theme, so it isn't a copy-paste, but a real rewrite. Please read the node below, and feel free to share your thoughts about it, or even [[hack it back|https://github.com/othelarian/tw5_motha]]! Look at the TW5 discord, you'll find me there.
+
+! INSTALL
+
+To install this theme, drag the link below and drop it on your [[TW5|https://tiddlywiki.com/]] file:
+
+$:/themes/othy/motha
+
+! NOTE:
+
+!! No Drag'n'Drop for opened tiddlers
+
+Due to some unexpected behaviour that I'm currently unable to fix, the core "Open" tiddler to handle the story river isn't working straight from the box, and I had to deactivate the Drag'n'Drop on it. If you have a solution, it would be awesome!
+
+!! Popup quirk
+
+The popup system in TW5 isn't perfect, and the popup opened by the SideBar's buttons have a weird behaviour, especially with draft tiddlers. You have to click on a non-editable area, and not on any of the SideBar's buttons, to close the popup. It's awkward at first, but in use you'll quickly forget this quirk.
+
+!! About Palette
+
+Motha work with the Palette system in the $:/ControlPanel, enabling the same configuration as with official themes.
+
+Some palettes have colors not very adapted to this theme, mostly for the SideBar buttons which have a color close to the one for the tiddler background. For example, Nord, DarkPhotos, Rocker and Blue have this issue. Some customization is required for this palette, but it's very light.

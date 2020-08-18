@@ -1,0 +1,23 @@
+title: $:/themes/othy/motha/PopupSideBar
+tags: $:/tags/PageTemplate
+list-before: $:/core/ui/PageTemplate/alerts
+
+<$reveal type="popup" state="$:/state/PopupSideBar" class="tc-popup-keep" retain="yes" animate="yes">
+<div class="motha-popup-sidebar">
+
+<h1>
+<$transclude tiddler={{$:/state/PopupSideBarStatus!!selected}} field="caption">
+{{$:/state/PopupSideBarStatus!!selected}}
+</$transclude>
+</h1>
+
+<$scrollable class="motha-popup-sidebar-scrollable">
+<div class="motha-popup-sidebar-inside">
+<$transclude tiddler={{$:/state/PopupSideBarStatus!!selected}}>
+Error with the tiddler to transclude [[$:/state/PopupSideBarStatus!!selected}}
+</$transclude>
+</div>
+</$scrollable>
+
+</div>
+</$reveal>

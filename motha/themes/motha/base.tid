@@ -1,0 +1,66 @@
+title: $:/themes/othy/motha/base
+tags: $:/tags/Stylesheet
+
+
+<$reveal type="nomatch" state="$:/state/sidebar" text="no">
+.tc-story-river {
+    margin-right: calc({{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}} + 30px);
+}
+
+.tc-sidebar-scrollable {
+    <$reveal type="nomatch" state="$:/state/sidebar" text="no">
+    background-color: <<colour tiddler-background>>;
+    </$reveal>
+}
+</$reveal>
+
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+	.tc-sidebar-scrollable {
+		margin: 0 0 0 -12px;
+    }
+}
+
+.tc-page-controls {
+    text-align: center;
+}
+
+.tc-search {
+    text-align: center;
+}
+
+.tc-tiddler-frame {
+    border: none;
+}
+
+.motha-popup-sidebar {
+    position: fixed;
+    top: 0;
+    right: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}};
+    bottom: 0;
+    width: 400px;
+    background-color: <<colour page-background>>;
+    border: solid 25px <<colour tiddler-title-foreground>>;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.motha-popup-sidebar h1 {
+    text-align: center;
+}
+
+.motha-popup-sidebar-scrollable {
+    position: relative;
+    height: 85vh;
+}
+
+.motha-popup-sidebar-inside {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.motha-access-sidebar {
+    border-top: dashed 2px <<colour tiddler-title-foreground>>;
+    border-bottom: dashed 2px <<colour tiddler-title-foreground>>;
+    text-align: center;
+}

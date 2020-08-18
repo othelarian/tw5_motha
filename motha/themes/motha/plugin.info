@@ -1,0 +1,12 @@
+{
+	"title": "$:/themes/othy/motha",
+	"name": "Motha",
+	"description": "A theme for TW5, inspired by Moments",
+	"author": "othelarian",
+	"version": "1.0.0",
+	"core-version": ">=5.1.21",
+	"list": "readme",
+	"dependents": ["$:/themes/tiddlywiki/vanilla"],
+	"plugin-type": "theme",
+	"source": "https://github.com/othelarian/tw5_motha"
+}
